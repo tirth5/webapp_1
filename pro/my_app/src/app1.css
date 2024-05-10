@@ -1,0 +1,45 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./beautiful-decorative-soft-colorful-watercolor-texture-background_1055-14290.avif'); /* Replace 'indian_background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff; /* Change to your preferred focus color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your preferred button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change to your preferred hover color */
+  }
+  
